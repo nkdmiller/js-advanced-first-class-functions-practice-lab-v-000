@@ -30,6 +30,6 @@ const driversByName = function(array){
 
 const totalRevenue = function(array){
   array.reduce(function (accu){
-    accu = accu +
+    accu = accu + 
   })
 }
