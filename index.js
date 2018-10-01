@@ -29,7 +29,7 @@ const driversByName = function(array){
 };
 
 const totalRevenue = function(array){
-  array.reduce(function (accumulator){
+  return array.reduce(function (accumulator){
     return  + currentValue;
   });
 };
