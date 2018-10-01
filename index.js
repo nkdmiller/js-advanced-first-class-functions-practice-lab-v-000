@@ -26,4 +26,4 @@ const driversByName = function(array){
     return a.localeCompare(b);
   });
   return newArray;
-}
+};
