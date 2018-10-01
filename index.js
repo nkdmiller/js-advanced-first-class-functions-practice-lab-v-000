@@ -36,6 +36,7 @@ const totalRevenue = function(array){
 
 const averageRevenue = function(array){
   return array.reduce(function (accumulator, driver){
-    
+    return  accumulator + driver.revenue;
+  }, 0);    
   })
 }
