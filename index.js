@@ -29,5 +29,7 @@ const driversByName = function(array){
 };
 
 const totalRevenue = function(array){
-  array.reduce(function (cumu))
+  array.reduce(function (accu, current){
+    
+  })
 }
