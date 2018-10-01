@@ -30,6 +30,6 @@ const driversByName = function(array){
 
 const totalRevenue = function(array){
   return array.reduce(function (accumulator, currentValue){
-    return  accumulator + currentValue;
+    return  accumulator.revenue + currentValue;
   });
 };
