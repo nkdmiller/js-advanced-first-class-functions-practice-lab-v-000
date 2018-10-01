@@ -23,7 +23,7 @@ const driversByRevenue = function(array){
 const driversByName = function(array){
   let newArray = array.slice();
   newArray.sort(function (a,b){
-    return a.revenue - b.revenue;
+    return a.localeCompare(b);
   });
   return newArray;
 }
